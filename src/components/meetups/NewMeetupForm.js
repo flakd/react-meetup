@@ -49,7 +49,7 @@ function NewMeetupForm(props) {
 						required
 						id='image'
 						ref={imageInputRef}
-						defaultValue='	http://google.com'
+						defaultValue='https://images.unsplash.com/photo-1444723121867-7a241cacace9'
 					/>
 					<label htmlFor='address'>Address</label>
 					<input
