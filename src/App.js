@@ -3,12 +3,11 @@ import {Routes, Route} from 'react-router-dom'
 import AllMeetupsPage from './pages/AllMeetups'
 import FavoritesPage from './pages/Favorites'
 import NewMeetupsPage from './pages/NewMeetups'
-import MainNavigation from './components/layout/MainNavigation'
+import Layout from './components/layout/Layout'
 
 function App() {
 	return (
-		<div>
-			<MainNavigation />
+		<Layout>
 			<Routes>
 				<Route
 					exact
@@ -26,7 +25,7 @@ function App() {
 					element={<NewMeetupsPage />}
 				/>
 			</Routes>
-		</div>
+		</Layout>
 	)
 }
 
