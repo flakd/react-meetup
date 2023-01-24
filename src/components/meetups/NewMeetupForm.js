@@ -2,7 +2,6 @@ import {useRef} from 'react';
 import classes from './NewMeetupForm.module.css';
 
 import Card from '../ui/Card';
-import userEvent from '@testing-library/user-event';
 
 function NewMeetupForm(props) {
 	const titleInputRef = useRef();
